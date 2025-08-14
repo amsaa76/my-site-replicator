@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import Navbar from "@/components/site/Navbar";
 import Hero from "@/components/sections/Hero";
+import Features from "@/components/sections/Features";
 import HowToBuy from "@/components/sections/HowToBuy";
 import Tokenomics from "@/components/sections/Tokenomics";
 import Roadmap from "@/components/sections/Roadmap";
@@ -16,6 +17,7 @@ const Index = () => {
       <Navbar />
       <main>
         <Hero />
+        <Features />
         <HowToBuy />
         <Tokenomics />
         <Roadmap />
